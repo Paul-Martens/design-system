@@ -7,4 +7,9 @@ export default defineConfig({
   server: {
     port: 8000,
   },
+  resolve: {
+    alias: {
+      'design-system': '/lib',
+    },
+  },
 });

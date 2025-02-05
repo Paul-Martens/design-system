@@ -1,8 +1,12 @@
+import { Page } from 'design-system/layout/Page';
+
+import { Heading } from 'design-system/content/Heading';
+
 function App() {
   return (
-    <main>
-      <h1>Design System</h1>
-    </main>
+    <Page>
+      <Heading>Design System</Heading>
+    </Page>
   );
 }
 
